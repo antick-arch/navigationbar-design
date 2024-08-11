@@ -1,0 +1,78 @@
+/* Reset and base styles */
+* {
+    padding: 0;
+    margin: 0px 15px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box; /* Corrected 'border-box' from 'border' */
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+/* Navbar styles */
+.navbar {
+    height: 60px;
+    margin: 0px 15px; /* Combined left and right margin */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgb(115, 199, 45);
+}
+
+/* Logo styles */
+.logo {
+    float: left;
+}
+
+.logo img {
+    height: 40px;
+}
+
+/* Menu styles */
+.menu {
+    float: right;
+}
+
+/* Link styles */
+a {
+    margin-right: 13px;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ddd;
+}
+
+a:active {
+    color: #ccc;
+}
+
+/*First section*/
+
+.first{
+    height: auto;
+    width: auto;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #ccc;
+}
+.div1{
+    height: 200px;
+    width: 420px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+.div2{
+    height: 200px;
+    width: auto;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
